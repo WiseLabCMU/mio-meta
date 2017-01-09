@@ -8,7 +8,13 @@
 ## Installation
 
 First install [libmio](https://github.com/WiseLabCMU/libmio). This will require autotools and a few other 
-dependencies. 
+dependencies. Then follow the commands below.
+
+<pre><code>
+./bootstrap.sh
+./configure
+make && make install
+</code></pre>
 
 
 ## Usage
